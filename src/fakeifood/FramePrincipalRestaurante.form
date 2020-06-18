@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" pref="965" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Component id="jScrollPane1" min="-2" pref="963" max="-2" attributes="0"/>
+                  <EmptySpace min="47" pref="47" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="txtLogoMarca" min="-2" pref="156" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="589" max="-2" attributes="0"/>
+                  <Component id="btnConfiguracao" max="32767" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="btnSair" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="67" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="2" attributes="0">
+                              <Component id="jLabel2" alignment="2" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnCategorias" alignment="2" min="-2" pref="286" max="-2" attributes="0"/>
+                              <Component id="jLabel3" alignment="2" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnPedidosDia" alignment="2" min="-2" pref="223" max="-2" attributes="0"/>
+                              <Component id="btnPedidosSemana" alignment="2" min="-2" pref="223" max="-2" attributes="0"/>
+                              <Component id="btnPedidosMes" alignment="2" min="-2" pref="223" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="2" attributes="0">
+                              <Component id="lblTipoEntrega" alignment="2" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnTipoEntrega" alignment="2" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel1" alignment="2" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnPrecoMedio" alignment="2" min="-2" pref="223" max="-2" attributes="0"/>
+                              <Component id="btnMaisPedido" alignment="2" min="-2" pref="223" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="2" attributes="0">
+                              <Component id="lblStatusRestaurante" alignment="2" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnStatusRestaurante" alignment="2" min="-2" pref="237" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="85" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="btnAdicionarPrato" min="-2" pref="251" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                          <Component id="txtLogoMarca" min="-2" pref="64" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="btnSair" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnConfiguracao" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="lblTipoEntrega" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblStatusRestaurante" alignment="1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                                  <Component id="btnStatusRestaurante" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnCategorias" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="btnTipoEntrega" alignment="1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="23" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="btnPedidosDia" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnPrecoMedio" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="btnPedidosSemana" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnMaisPedido" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="btnPedidosMes" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                  <Component id="btnAdicionarPrato" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" min="-2" pref="200" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="pnlPratos">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+              </Properties>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridLayout">
+                <Property name="columns" type="int" value="2"/>
+                <Property name="horizontalGap" type="int" value="8"/>
+                <Property name="rows" type="int" value="0"/>
+                <Property name="verticalGap" type="int" value="8"/>
+              </Layout>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JButton" name="btnAdicionarPrato">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="99" green="cc" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Adicionar novo prato ao menu"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAdicionarPratoActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnPedidosDia">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="99" green="cc" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Relat&#xf3;rio de pedidos do dia"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnPedidosDiaActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnPrecoMedio">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="99" green="cc" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Pre&#xe7;o m&#xe9;dio de pratos (7 dias)"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnPrecoMedioActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnPedidosSemana">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="99" green="cc" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Relat&#xf3;rio de pedidos da semana"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnPedidosSemanaActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnPedidosMes">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="99" green="cc" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Relat&#xf3;rio de pedidos do m&#xea;s"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnPedidosMesActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnMaisPedido">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="99" green="cc" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Prato mais pedido a cada m&#xea;s"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnMaisPedidoActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnStatusRestaurante">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="99" green="cc" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Clique para abrir restaurante"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnStatusRestauranteActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblStatusRestaurante">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Status do Restaurante: aberto"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblTipoEntrega">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Tipo de entrega: r&#xe1;pida"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnTipoEntrega">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="99" green="cc" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Clique para mudar tipo de entrega"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnTipoEntregaActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnCategorias">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="99" green="cc" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Gerenciar categorias do restaurante"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCategoriasActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnConfiguracao">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="99" green="cc" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Configura&#xe7;&#xf5;es"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnConfiguracaoActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnSair">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="99" green="cc" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Sair"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSairActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtLogoMarca">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="66" green="99" red="ff" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Square721 Cn BT" size="36" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="66" green="99" red="ff" type="rgb"/>
+            </Property>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Images/foodeliveryPequeno.png"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Altere as categorias do seu restaurante!"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Relat&#xf3;rios do Restaurante"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Dados temporais"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
